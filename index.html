@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="headinggg">
+            <h1>Student Registration System</h1>
+        </div>
+        <div class="container">
+            <div class="form">
+                <!-- <h2>Enrollment Form</h2> -->
+                <form autocomplete="off">
+                    <div class="name">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Enter Your Name..." required>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Enter Your Email..." required>
+                    </div>
+                    <div class="student-id">
+                        <label for="studentID">Student ID:</label>
+                        <input type="text" id="studentID" placeholder="Enter Your Student ID..." required>
+                    </div>
+                    <div class="class">
+                        <label for="class">Class:</label>
+                        <input type="text" id="class" placeholder="Enter Your Class..." required>
+                    </div>
+                    <div class="roll-no">
+                        <label for="rollNo">Roll Number:</label>
+                        <input type="text" id="rollNo" placeholder="Enter Your Roll Number..." required>
+                    </div>
+                   
+                    
+                   
+                    
+                    <div class="button">
+                        <button type="submit" id="submit">Submit</button>
+                        <button type="reset" id="reset">Clear</button>
+                    </div>
+                </form>
+            </div>
+            <div class="line"></div>
+            <div class="op-box">
+                <div class="output">
+                    <h2>Students Detail</h2>
+                    <div class="cardContainer" id="cardContainer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
